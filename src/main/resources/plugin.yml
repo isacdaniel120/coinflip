@@ -1,0 +1,19 @@
+name: Coinflip
+version: 1.0.0
+main: dev.gugli.coinflip.Coinflip
+api-version: '1.21'
+description: Coinflip plugin
+authors: [gugli]
+depend: [Vault]
+
+commands:
+  coinflip:
+    description: Open the coinflip menu
+    aliases: [cf]
+    usage: /coinflip [amount]
+
+permissions:
+  coinflip.use:
+    default: true
+  coinflip.admin:
+    default: op

@@ -1,0 +1,19 @@
+coinflip:
+  min-bet: 100
+  max-bet: 1000000000
+  currency-symbol: "$"
+  broadcast-win: true
+  broadcast-message: "&8[&6Coinflip&8] &f{winner} &7won &6{amount} &7against &f{loser}&7!"
+  animation-ticks: 40
+
+messages:
+  prefix: "&8[&6CF&8] &r"
+  no-permission: "&cNo permission!"
+  not-enough-money: "&cYou don't have enough money!"
+  invalid-amount: "&cInvalid amount!"
+  min-bet: "&cMinimum bet is &6{min}&c!"
+  max-bet: "&cMaximum bet is &6{max}&c!"
+  bet-created: "&aYour coinflip of &6{amount} &ais now public!"
+  bet-cancelled: "&cCoinflip cancelled. Money refunded."
+  cant-flip-self: "&cYou can't flip against yourself!"
+  reload: "&aConfig reloaded!"
