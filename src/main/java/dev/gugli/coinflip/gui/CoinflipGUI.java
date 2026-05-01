@@ -157,7 +157,7 @@ public class CoinflipGUI {
         inv.setItem(13, result);
 
         player.openInventory(inv);
-        Bukkit.getScheduler().runTaskLater(plugin, player::closeInventory, 60L);
+        Bukkit.getScheduler().runTaskLater(plugin, (Runnable) player::closeInventory, 60L);
     }
 
     private void fillBorder(Inventory inv) {
